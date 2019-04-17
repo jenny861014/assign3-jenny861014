@@ -160,7 +160,7 @@ void draw() {
     //1~8
     for (int j =160; j<width+240; j=j+80){
     pushMatrix();
-    translate(j-150, j);
+    translate(j-160, j);
     image(stone1,0,0);
     popMatrix();
     }
