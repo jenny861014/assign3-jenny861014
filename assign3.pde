@@ -283,6 +283,8 @@ void draw() {
 			if(mousePressed){
 				gameState = GAME_RUN;
         playerHealth = 2;
+	groundhogIdleX = 320;
+        groundhogIdleY = 80;
 				mousePressed = false;
 				// Remember to initialize the game here!
 			}
